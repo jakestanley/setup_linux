@@ -6,4 +6,7 @@ else
 fi
 
 # Installs stuff for web development, e.g mysql-workbench
-sudo apt-get install mysql-workbench
+
+# Install MySQL Workbench
+
+	sudo apt-get install mysql-workbench

@@ -6,3 +6,7 @@ else
 fi
 
 # Installs stuff mainly for hosting web servers
+
+# Install MySQL server
+
+	sudo apt-get install -y mysql-server

@@ -17,5 +17,20 @@ sudo apt-get install -y git vim software-properties-common openjdk-7-jdk
 sudo add-apt-repository ppa:linrunner/tlp
 sudo apt-get install -y tlp tlp-rdw
 
+# Install media players and interfaces
+sudo apt-get install -y ncmpcpp mpc mplayer2
+
+# Install screenfetch
+sudo apt-get install -y lsb-release
+mkdir ~/screenfetch
+cd ~/screenfetch
+wget -O screenfetch 'https://raw.github.com/KittyKatt/screenFetch/master/screenfetch-dev'
+sudo chmod +x screenfetch
+sudo cp screenfetch /usr/local/bin/screenfetch
+sudo rm -r ~/screenfetch
+
+# Install Samba stuff
+sudo apt-get install -y samba cifs-utils
+
 # Install misc
 sudo apt-get install -y tree pandoc xsel htop xclip dict preload newsbeuter irssi

@@ -17,7 +17,7 @@ fi
 
 # Install misc
 
-	sudo apt-get install -y pidgin shutter redshift grafx2
+	sudo apt-get install -y pidgin shutter redshift grafx2 scrot feh
 
 # Games stuff
 
