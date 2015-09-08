@@ -6,4 +6,4 @@ else
 fi
 
 # Installs git, vim, screen
-sudo apt-get install git vim screen software-properties-common
+sudo apt-get install git vim screen software-properties-common pm-utils
