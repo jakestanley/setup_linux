@@ -5,5 +5,5 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
-# Install rxvt-unicode
-sudo apt-get install rxvt-unicode 
+# Installs git, vim, screen
+sudo apt-get install git vim screen software-properties-common

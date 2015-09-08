@@ -5,5 +5,5 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
-# Installs essentials, git and vim
-sudo apt-get install git vim
+# Install...
+sudo apt-get install grafx2 transmission-gtk openjdk-7-jdk steam

@@ -5,4 +5,4 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
-# TODO Installs Java
+sudo apt-get install dbus libxinerama-dev libxft-dev libxss1 libxdg-basedir1 dunst
