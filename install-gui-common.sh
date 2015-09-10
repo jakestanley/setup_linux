@@ -15,3 +15,6 @@ fi
 # Install common GUI stuff
 sudo apt-get install rxvt-unicode gitg gitk kdiff3 shutter lxappearance redshift pcmanfm x11-xserver-utils feh filezilla
 # TODO install firefox, nvpy (through pip install), compton, redshift-gtk, manual install for ultra-flat-icons(-green) package(s)
+
+# Install fancylock script
+sudo cp ~/scripts/launchers/fancylock /usr/local/bin/
