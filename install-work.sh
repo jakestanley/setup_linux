@@ -24,6 +24,9 @@ sudo pecl install xdebug
 # Install gui stuff
 sudo apt-get install pidgin mysql-workbench 
 
+# Install some other non-gui tools
+sudo apt-get install mytop
+
 # Echo some stuff about debugging
 echo "You need to add some additional stuff to the php.ini file to get Xdebug to work. See the comments in install-work.sh"
 
