@@ -6,7 +6,10 @@ else
 fi
 
 # Installs...
-sudo apt-get install wicd-curses pandoc tree xsel htop xclip dict preload tlp tlp-rdw newsbeuter openjdk-7-jre irssi ncdu ttytter samba cifs-utils
+sudo apt-get install wicd-curses pandoc tree xsel xclip dict preload tlp tlp-rdw newsbeuter openjdk-7-jre irssi ncdu ttytter samba cifs-utils
+
+# System status stuff
+sudo apt-get install htop glances
 
 # Run subscripts
 ./cli/install-screenfetch.sh
