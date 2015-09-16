@@ -10,6 +10,7 @@ fi
 ./gui/install-i3.sh -no-update
 ./gui/install-rofi.sh -no-update
 ./gui/install-dunst.sh -no-update
+# ./gui/install-lemonbar.sh -no-update
 ./gui/install-chrome.sh
 
 # Install common GUI stuff
