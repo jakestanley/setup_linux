@@ -6,7 +6,7 @@ else
 fi
 
 # Installs...
-sudo apt-get install pandoc tree xsel xclip dict preload tlp tlp-rdw newsbeuter openjdk-7-jre irssi ncdu ttytter samba cifs-utils mailutils
+sudo apt-get install pandoc tree xsel xclip dict preload tlp tlp-rdw newsbeuter openjdk-7-jre irssi ncdu ttytter samba cifs-utils mailutils youtube-dl
 
 # Networking and network debugging stuff
 sudo apt-get install wicd-curses mtr
