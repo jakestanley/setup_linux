@@ -5,4 +5,19 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
-sudo apt-get install dbus libxinerama-dev libxft-dev libxss1 libxdg-basedir1 dunst
+# Install the dependencies
+sudo apt-get install dbus libxinerama-dev libxft-dev libxss1 libxss-dev libxdg-basedir1
+
+# Download, compile, and install
+cd ~
+wget http://www.knopwob.org/public/dunst-release/dunst-1.1.0.tar.bz2
+tar -jxf dunst-1.1.0.tar.bz2 
+cd dunst-1.1.0/
+make
+sudo make install
+
+# Clean up
+cd ~
+sudo rm -r dunst-*
+
+
