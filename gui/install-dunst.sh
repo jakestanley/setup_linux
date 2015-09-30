@@ -6,7 +6,7 @@ else
 fi
 
 # Install the dependencies
-sudo apt-get install dbus libxinerama-dev libxft-dev libxss1 libxss-dev libxdg-basedir1
+sudo apt-get install dbus libxinerama-dev libxft-dev libxss1 libxss-dev libxdg-basedir1 libdbus-1-dev libxdg-basedir-dev
 
 # Download, compile, and install
 cd ~
