@@ -6,7 +6,7 @@ else
 fi
 
 # Install standalone players
-sudo apt-get install mplayer
+sudo apt-get install mplayer radiotray
 
 # Install mpd servers TODO check this
 sudo apt-get install mopidy mopidy-spotify
