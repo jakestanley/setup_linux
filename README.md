@@ -48,7 +48,6 @@ This script installs software that's pertinent to my current work setup.
 You don't really need this stuff.
 
 ### Use cases
-
 The following use cases are my own, and the big scripts are designed for these use cases.
 
 #### Install first
@@ -62,6 +61,8 @@ The following use cases are my own, and the big scripts are designed for these u
 ## tl;dr stuff you need to know
 
 ### Prerequisites if you are installing Steam (and many other non-free packages)
+
+*NON-UBUNTU ONLY*
 
 The following will allow you to install Steam.
 
