@@ -14,7 +14,7 @@ fi
 ./gui/install-chrome.sh
 
 # Install common GUI stuff
-sudo apt-get install rxvt-unicode git-cola gitk kdiff3 shutter lxappearance redshift pcmanfm x11-xserver-utils feh nitrogen filezilla
+sudo apt-get install rxvt-unicode git-cola gitk kdiff3 shutter lxappearance redshift pcmanfm x11-xserver-utils feh nitrogen filezilla gparted nvpy
 # TODO install firefox, nvpy (through pip install), compton, redshift-gtk, manual install for ultra-flat-icons(-green) package(s)
 
 # Install fancylock script
