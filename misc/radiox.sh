@@ -8,4 +8,6 @@ DATETAG=`date +"%d%m%Y-%H%M"`
 echo ${DIRECTORY} | xargs mkdir
 echo "${STATION_NAME}Stream quit" | xargs screen -XS 
 screen -dmS ${STATION_NAME}Stream mplayer ${STATION_URL} -dumpstream -dumpfile ${DIRECTORY}${STATION_NAME}_${DATETAG}.mp3
+echo "echo \"${STATION_NAME}Stream quit\" | xargs screen -XS" | at 10pm
+echo "rm -r ${DIRECTORY}${STATION_NAME}_${DATETAG}.mp3" | 11pm
 echo done
