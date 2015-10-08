@@ -11,6 +11,9 @@ sudo apt-get install pandoc tree xsel xclip dict preload tlp tlp-rdw newsbeuter 
 # Networking and network debugging stuff
 sudo apt-get install wicd-curses mtr
 
+# Mounting stuff
+sudo apt-get install usbmount
+
 # System status stuff
 sudo apt-get install htop glances
 
