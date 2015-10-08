@@ -15,10 +15,12 @@ Install in the following order:
 - install-core.sh
 - add-repositories.sh
 - install-common.sh 
+- install-defiance.sh (if applicable)
 - install-media.sh
 - install-gui-common.sh
 - install-personal.sh
 - install-work.sh
+- not a script, but you'll need to install drivers
 
 #### install-sudo.sh
 This installs sudo. It should be run first on every Debian installation.
@@ -31,6 +33,9 @@ Installs git, vim, screen, and software-properties-common for adding repositorie
 
 #### install-common.sh
 This installs command line only programs. Some are a bit redundant, but they don't take up much space, e.g pandoc.
+
+#### install-defiance.sh
+This installs stuff that pertains to my PCS Defiance laptop, like the NVIDIA Optimus support packages
 
 #### install-media.sh
 This installs software that's used to play media. This is in a separate script because there may be installations such as headless servers that don't need media playback capabilities.
