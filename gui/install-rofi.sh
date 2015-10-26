@@ -16,3 +16,6 @@ cd ~/rofi*
 ./configure
 sudo make
 sudo make install
+
+# clean up
+sudo rm -r ~/rofi*

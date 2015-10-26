@@ -6,4 +6,4 @@ else
 fi
 
 # Install...
-sudo apt-get install grafx2 transmission-gtk openjdk-7-jdk steam
+sudo apt-get install grafx2 transmission-gtk openjdk-8-jdk steam

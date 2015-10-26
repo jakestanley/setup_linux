@@ -5,3 +5,4 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
+sudo apt-get install openjdk-8-jdk
