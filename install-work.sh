@@ -6,3 +6,7 @@ else
 fi
 
 sudo apt-get install openjdk-8-jdk
+
+# TODO manually
+# install spring tool suite
+# install slack client
