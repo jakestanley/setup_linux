@@ -11,7 +11,8 @@ fi
 ./gui/install-rofi.sh -no-update
 ./gui/install-dunst.sh -no-update
 # ./gui/install-lemonbar.sh -no-update
-./gui/install-chrome.sh
+# ./gui/install-chrome.sh
+sudo apt-get install chromium-browser
 
 # Install common GUI stuff
 sudo apt-get install rxvt-unicode git-cola gitk kdiff3 shutter lxappearance redshift pcmanfm x11-xserver-utils feh nitrogen filezilla gparted
