@@ -5,14 +5,8 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
-# install remmina for remote desktop
-sudo apt-get install remmina
-
-# install subversion
-sudo apt-get install subversion
-
-# install apache2
-sudo apt-get install apache2
+# install misc stuff
+sudo apt-get install remmina subversion maven apache2
 
 # install java 8 stuff (won't work on trusty, use workaround)
 sudo apt-get install openjdk-8-jdk tomcat8
