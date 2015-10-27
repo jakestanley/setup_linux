@@ -24,3 +24,6 @@ sudo apt-get install nvpy ultra-flat-icons-green redshift-gtk
 
 # Install fancylock script
 sudo cp ~/scripts/launchers/fancylock /usr/local/bin/
+
+# Prompt to select browser
+sudo update-alternatives --config x-www-browser
