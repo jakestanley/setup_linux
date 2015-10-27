@@ -5,6 +5,9 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
+# install remmina for remote desktop
+sudo apt-get install remmina
+
 # install apache2
 sudo apt-get install apache2
 
