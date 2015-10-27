@@ -9,7 +9,7 @@ fi
 sudo apt-get install apache2
 
 # install jdk (won't work on trusty)
-sudo apt-get install openjdk-8-jdk 
+sudo apt-get install openjdk-8-jdk tomcat8
 
 # install mysql stuff
 sudo apt-get install mysql-server mysql-workbench mytop
