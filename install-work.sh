@@ -6,7 +6,7 @@ else
 fi
 
 # install misc stuff
-sudo apt-get install remmina subversion maven apache2
+sudo apt-get install remmina subversion maven apache2 ruby
 
 # install java 8 stuff (won't work on trusty, use workaround)
 sudo apt-get install openjdk-8-jdk tomcat8
