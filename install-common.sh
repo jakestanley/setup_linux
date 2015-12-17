@@ -15,7 +15,7 @@ sudo apt-get install wicd-curses mtr
 sudo apt-get install usbmount
 
 # System status stuff
-sudo apt-get install htop glances
+sudo apt-get install htop powertop
 
 # Run subscripts
 ./cli/install-screenfetch.sh
