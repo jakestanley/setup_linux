@@ -30,3 +30,7 @@ sudo cp ~/scripts/launchers/fancylock /usr/local/bin/
 
 # Prompt to select browser
 sudo update-alternatives --config x-www-browser
+
+# Install headless Dropbox
+cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
+~/.dropbox-dist/dropboxd
