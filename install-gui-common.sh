@@ -23,6 +23,9 @@ sudo apt-get install nvpy ultra-flat-icons-green redshift-gtk
 # Install tray stuff
 sudo apt-get install volti
 
+# Install grub-customizer
+sudo apt-get install grub-customizer
+
 # TODO install firefox, nvpy (through pip install), compton, redshift-gtk, manual install for ultra-flat-icons(-green) package(s)
 
 # Install fancylock script
