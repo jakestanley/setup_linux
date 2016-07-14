@@ -8,7 +8,7 @@ fi
 # install misc stuff
 sudo apt-get install remmina subversion maven apache2 ruby
 
-# install java 8 stuff (won't work on trusty, use workaround)
+# install java 8 stuff
 sudo apt-get install openjdk-8-jdk tomcat8
 
 # install mysql stuff

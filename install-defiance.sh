@@ -1,5 +1,3 @@
-source ~/conf/flag-update.sh
-
 # check if update should be skipped
 if [ "$1" != "-no-update" ]; then
     sudo apt-get update
