@@ -13,7 +13,7 @@ Installs git, vim, screen, and software-properties-common for adding repositorie
 This adds any required repositories using add-apt-repository. It will include repositories that you have to install manually as comments. 
 
 ## install-common.sh
-Install command line programs used commonly in all contexts.
+Install commonly used command line programs.
 
 ## install-defiance.sh
 Install laptop dependencies, like the NVIDIA Optimus support packages.
@@ -22,7 +22,7 @@ Install laptop dependencies, like the NVIDIA Optimus support packages.
 Install software that's used to play media. This is in a separate script because there may be installations such as headless servers that don't need media playback capabilities.
 
 ## install-gui-common.sh
-Install gui programs used commonly in all contexts.
+Install commonly used gui programs.
 
 ## install-personal.sh
 Install programs used at home only.
