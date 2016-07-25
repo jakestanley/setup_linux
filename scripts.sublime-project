@@ -1,0 +1,38 @@
+{
+	"folders":
+	[
+		{
+			"file_exclude_patterns":
+			[
+				".git*"
+			],
+			"folder_exclude_patterns":
+			[
+				".git"
+			],
+			"path": "windows"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".git*"
+			],
+			"folder_exclude_patterns":
+			[
+				".git"
+			],
+			"path": "linux"
+		},
+		{
+			"file_exclude_patterns":
+			[
+				".git*"
+			],
+			"folder_exclude_patterns":
+			[
+				".git"
+			],
+			"path": "macos"
+		}
+	]
+}
