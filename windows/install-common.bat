@@ -1,9 +1,9 @@
-::install common stuff
+::install basics
 choco install ^
 wget less vim git 7zip curl cygwin cyg-get jre8 ^
 googlechrome ^
 ruby ^
-sublimetext3 sublimetext3.packagecontrol ^
+sublimetext3 ^
 winmerge ^
 conemu ^
 clink ^
@@ -22,4 +22,5 @@ adobereader ^
 firefox ^
 filezilla ^
 dotnet4.5 ^
+procexp ^
 -y -r
