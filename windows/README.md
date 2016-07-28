@@ -1,4 +1,4 @@
-#Windows
+#Windows TODO update
 
 This repository contains information and instructions on my standard Windows configuration. This is a comprehensive guide to setting up everything I could possibly need in a given Windows environment.
 
@@ -14,7 +14,7 @@ These applications need to be installed manually as they are not available or ar
 - [Notation](http://getnotation.com/) for synchronising notes with Simplenote
 - [Magicdisc](http://www.magiciso.com/tutorials/miso-magicdisc-overview.htm) as the Chocolatey package currently doesn't work. It doesn't install the driver or something
 - [Winamp 5.666](filehippo.com/download_winamp) because it's lighter than iTunes and can play FLACs
-- [Spotify](https://www.spotify.com/download/)
+- [Spotify](https://www.spotify.com/download/) - // moved to install-common.bat
 
 ### Home
 - [iTunes](http://itunes.com/) for use at home because that's where I sync my iThings *rms term used ironically*

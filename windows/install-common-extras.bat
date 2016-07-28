@@ -1,6 +1,7 @@
-::not recommended for Vagrant unless necessary
+::installs other common home comforts. not necessary for a basic environment
 choco install ^
 btsync ^
+treesizefree ^
 haroopad ^
 winmerge ^
 pandoc ^
@@ -11,4 +12,5 @@ f.lux ^
 dropbox ^
 sourcetree ^
 kdiff3 ^
+spotify ^
 -y -r
