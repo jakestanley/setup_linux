@@ -14,7 +14,9 @@ brew cask install google-chrome
 brew cask install handbrake
 brew cask install sublime-text
 brew cask install omnifocus
+brew cask install omnidisksweeper
 brew cask install bittorrent-sync
+brew cask install bittorrent
 brew cask install dropbox
 brew cask install 1password
 brew cask install firefox

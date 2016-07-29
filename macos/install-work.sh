@@ -1,6 +1,6 @@
-brew install tomcat unixodbc
+brew install unixodbc svn
 
-brew cask install eclipse-jee
+brew cask install eclipse-jee svnx
 
 # Install Eclipse plugins
 cd /Applications/Eclipse.app/Contents/MacOS/
