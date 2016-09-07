@@ -6,7 +6,7 @@ else
 fi
 
 # Installs...
-sudo apt-get install pandoc tree xsel xclip dict preload tlp tlp-rdw newsbeuter openjdk-8-jre irssi ncdu ttytter samba cifs-utils mailutils youtube-dl
+sudo apt-get install pandoc tree xsel xclip dict preload tlp tlp-rdw newsbeuter openjdk-8-jdk irssi ncdu samba cifs-utils mailutils youtube-dl
 
 # Networking and network debugging stuff
 sudo apt-get install wicd-curses mtr
@@ -20,7 +20,7 @@ sudo apt-get install htop powertop
 # Run subscripts
 ./cli/install-screenfetch.sh
 
-## TODO install ttytter
+## TODO install oysttyer
 # Here is an smb.conf template
 #[share]" | sudo tee -a /etc/samba/smb.conf
 #path = /home/jake/share" | sudo tee -a /etc/samba/smb.conf
