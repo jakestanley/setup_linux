@@ -6,4 +6,4 @@ else
 fi
 
 # Install...
-sudo apt-get install grafx2 transmission-gtk openjdk-7-jdk steam
+sudo apt-get install grafx2 deluge-gtk libtorrent14 libtorrent-dev steam

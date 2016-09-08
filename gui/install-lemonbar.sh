@@ -5,4 +5,10 @@ else
         echo "-no-update flag passed, skipping apt-get update"
 fi
 
-sudo apt-get install dbus libxinerama-dev libxft-dev libxss1 libxdg-basedir1 dunst
+## Compile and install lemonbar and clean up
+git clone https://github.com/LemonBoy/bar.git ~/bar
+cd ~/bar 
+make
+sudo make install
+cd -
+sudo rm -r ~/bar
