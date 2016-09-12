@@ -21,3 +21,6 @@ make && sudo make install
 
 # Install other i3 shit and stuff for making nice lock screens
 sudo apt-get -y install i3status i3lock scrot imagemagick
+
+# Install preferred terminal emulator, notification handler, and app switcher
+sudo apt-get install rxvt-unicode dunst rofi
